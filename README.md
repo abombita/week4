@@ -1,6 +1,6 @@
-- [ ] 1) Create a new repo named "week4" 
-- [ ] 2) Create a new branch named "practice"
-- [ ] 3) Clone your repo and change to the "practice" branch
+- [x] 1) Create a new repo named "week4" 
+- [x] 2) Create a new branch named "practice"
+- [x] 3) Clone your repo and change to the "practice" branch
 - [ ] 4) Create an animation.html file you can write your own HTML or use the provided HTML attached below
 - [ ] 5) Create a file named animation.css 
 - [ ] 6) SELECTOR: the root element DECLARATIONS: declare a variable "blue" with the value "steelblue", declare a variable named "red" with the value "firebrick", declare a variable "green" with the value "mediumseagreen" 
