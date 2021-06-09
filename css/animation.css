@@ -1,60 +1,61 @@
 /* Overhead CSS */
 
-:root{
+:root {
     --blue: steelblue;
     --red: firebrick;
     --green: mediumseagreen;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: cursive, Arial, Helvetica, sans-serif;
 }
 
 /* Classes */
 
-.center{
+.center {
     display: flex;
     height: 100%;
-    flex-direction: center;
+    justify-content: center;
     align-items: center;
 }
 
-.box{
+.box, .box-2, .box-3 {
     display: flex;
-    flex-direction: center;
+    justify-content: center;
     align-items: center;
     height: 250px;
     width: 250px;
     background-color: #333;
     color: #fff;
-    animation: color-change 4 infinite;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 /* Elements */
 
-h1{
+h2 {
     transition: .5s;
 
 }
 
-h1:hover .box{
+.box h2:hover {
     transform: rotate(360deg);
 }
 
 /* Keyframes */
 
-@keyframes color-change{
-    0% {background: #333;}
-    25% { background: var(--red);}
-    50% { background: var(--blue);}
-    75% { background: var(--green);}
-    100% {background: #333;}
+@keyframes color-change {
+    0% {background-color: #333;}
+    25% { background-color: var(--red);}
+    50% { background-color: var(--blue);}
+    75% { background-color: var(--green);}
+    100% {background-color: #333;}
 }

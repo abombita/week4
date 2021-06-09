@@ -1,21 +1,25 @@
-- [x] 1) Create a new repo named "week4" 
-- [x] 2) Create a new branch named "practice"
-- [x] 3) Clone your repo and change to the "practice" branch
-- [x] 4) Create an animation.html file you can write your own HTML or use the provided HTML attached below
-- [x] 5) Create a file named animation.css 
-- [x] 6) SELECTOR: the root element DECLARATIONS: declare a variable "blue" with the value "steelblue", declare a variable named "red" with the value "firebrick", declare a variable "green" with the value "mediumseagreen" 
-- [x] 7) SELECTOR: all elements DECLARATIONS: set margin & padding to 0, set box sizing to border box
-- [x] 8) SELECTOR: the body element DECLARATIONS: set height to 100% of the viewport height, set font to something other than times new roman (I'm using sans-serif)
-- [x] 9) SELECTOR: all elements with the class of "center" DECLARATIONS: set height to 100% of the parent, set display to flex, align flex items to the center on both the horizontal and vertical axis 
-- [x] 10) SELECTOR: all elements with the class of "box" DECLARATIONS: set height & width to 250px, set background to #333, set text color to #fff, set display to flex, align flex items to the center on both the horizontal and vertical axis, set animation name to any name you like (I used "color-change"), animation duration should be 4 seconds, animation iteration should be infinite
-- [x] 11) SELECTOR: all "h1" elements DECLARATIONS: set transforms to transition over 1/2 second 
-- [x] 12) SELECTOR: all "h1" elements on hover over all elements with the class of "box" (this is a tricky one, if you can't get it ask me or Kevin and we can help you out) DECLARATIONS: set transform to rotate 360 degrees 
-- [ ] 13) KEYFRAMES: your animation name DECLARATIONS:
-- [x] @ 0%: set background to #333
-- [x] @ 25%: set background to the variable red
-- [x] @ 50%: set background to the variable blue
-- [x] @ 75%: set background to the variable green
-- [x] @ 100%: set background to the variable #333
-- [ ] 14) Push your work to github
-- [ ] 15) Open a pull request from practice --> main
-- [ ] 16) Close your pull request
+- [x] 1) Create a new repo named week4
+- [ ] 2) Invite hbull5 as a collaborator for this repo
+- [x] 3) Create two files index.html & app1.js
+- [x] 4) Our index.html should have the boilerplate and a single with the content of "Check the console..."
+- [x] 5) Make sure to link your index.html to app1.js, from now on out we will be working out of app1.js file.
+- [x] 6) Write a message to the console that says "Hello world!"
+- [x] 7) Write a warning to the console that says "This is a warning!"
+- [x] 8) Write an error to the console that says "Error! System critical!"
+- [x] 9) Declare a variable named var1
+- [x] 10) Assign a string data type value to var1
+- [x] 11) Write the value of var1 to the console
+- [x] ] 12) Write a blank line to the console. (I showed one way to do this in class, there are some others feel free to use those instead if you'd like, practice your google-fu)
+- [x] 13) Define and assign a variable named var2, the value should be of the number type
+- [x] 14) Evaluate var1 + var2 and write the result to the console (You can store the result in a variable and write it to the console, or pass the expression into a method that will remain un-named)
+- [x] 15) Could you guess the result? Write your guess in an inline comment next to where you're writing it to the console
+- [ ] 16) Add in a multi line comment and write some of the types we covered in class today on individual lines
+- [x] 17) Write the type of the var1 variable to the console
+- [x] 18) Can you guess the result? Write your guess in an inline comment next to where you're writing to the console.
+- [x] 19) Declare a variable named var3 and assign it the string value text
+- [x] 20) Write the value of var3 to the console
+- [x] 21)  Reassign var3 to a boolean value
+- [x] 21)  Write the value of var3 to the console
+- [x] 22)  Reassign var1 to the number 5
+- [x] 23)  Reassign var2 to the string 5
+- [ ] 24)  In any order or in however many lines you'd like, parse var2 from a string to a number and add it to var1, write your result to the console.
