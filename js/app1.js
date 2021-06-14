@@ -18,7 +18,8 @@ var var2 = 3;
 //my guess is randomwords3
 console.log(var1 + var2);
 
-/* Individual lines??? 
+/* Individual lines
+numbers, string, boolean, object, undefined, null, NAN, arrays, typeof, 
 
 */
 
